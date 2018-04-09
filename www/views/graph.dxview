@@ -1,0 +1,20 @@
+<div data-options="dxView : { name: 'graph', title: 'graph' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
+        <div data-bind="dxScrollView: {}">
+            <div class="fixed-top">
+                <img id="container" class="mydivs" alt="Brand" src="logo/logo1.png">
+            </div>
+
+            <h2>
+                <strong>Show Graph: </strong>
+            </h2>
+
+
+
+
+            <div id="footer" class="fixed-bottom"><strong>MellitusBLE &copy;  MellitusHealth Inc 2018</strong></div>
+
+        </div>
+    </div>
+</div>
+    
