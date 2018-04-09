@@ -1,7 +1,0 @@
-{
-  "name": "MellitusBLE",
-  "dependencies": {
-    "devextreme": "16.2.9",
-    "knockout": "3.4.0"
-    }
-}
