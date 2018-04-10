@@ -1,3 +1,4 @@
+cordova.define("cordova-plugin-splashscreen.SplashScreen", function(require, exports, module) {
 /*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -19,10 +20,17 @@
  *
 */
 
-module.exports = {
-    id: 'ios',
-    bootstrap: function() {
-        require('cordova/channel').onNativeReady.fire();
+var exec = require('cordova/exec');
+
+var splashscreen = {
+    show:function() {
+        exec(null, null, "SplashScreen", "show", []);
+    },
+    hide:function() {
+        exec(null, null, "SplashScreen", "hide", []);
     }
 };
 
+module.exports = splashscreen;
+
+});

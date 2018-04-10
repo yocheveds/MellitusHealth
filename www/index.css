@@ -38,7 +38,7 @@ h2 {
 }
 
 /*form*/
-/*.form-group {
+.form-group {
     margin-top: 5px;
     text-align: left;
     margin-left: 60px;
@@ -51,7 +51,7 @@ h2 {
     margin-left: 55px;
     margin-right: 60px;
     font-style: italic;
-}*/
+}
 
 /*input*/
 
@@ -71,7 +71,7 @@ label {
     font-style: italic;
     text-align: left;
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: -20px;
 }
 
 .form-check-label {
@@ -89,10 +89,13 @@ label {
     font-size: 14px;
   }
 
+/*#passwordHelpBlock{
+    line-height: 100%;
+}*/
 
 
 /*submit*/
-/*.login {
+.login {
     background-color: #00667D;
     font-weight: bold;
     border-radius: 6px;
@@ -105,7 +108,7 @@ label {
     font-size: 22px;
     box-shadow: 8px 4px 4px #A1ABB2;
     font-style: italic;
-}*/
+}
 
 /*sticky-footer*/
 
@@ -124,12 +127,18 @@ label {
     font-style: italic;
 }
 
+/*back-next*/
 
+/*.btn {
+    background-color: #F99D2A;
+    border-radius: 8px;
+    padding: 8px 20px;
+}*/
 
-
-#form-container {
-    margin: 10px;
+/*#btt2 {
+    float: left;
 }
-#loginButton {
-    margin: 10px;
-}
+
+#btt1 {
+    float: right;
+}*/

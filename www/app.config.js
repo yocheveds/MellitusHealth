@@ -1,7 +1,7 @@
 // NOTE object below must be a valid JSON
 window.MellitusBLE = $.extend(true, window.MellitusBLE, {
   "config": {
-    "layoutSet": "empty",
+    "layoutSet": "simple",
     "navigation": [
       {
         "title": "Home",

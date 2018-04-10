@@ -1,41 +1,6 @@
-<div data-options="dxView : { name: 'data', title: 'data' } ">
+﻿<div data-options="dxView : { name: 'data', title: 'data' } " >
     <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background">
-        <div data-bind="dxScrollView: {}">
-            <div class="fixed-top">
-                <img id="container" class="mydivs" alt="Brand" src="logo/logo1.png">
-            </div>
-
-            <h2>
-                <strong>Transfer Data: </strong>
-            </h2>
-
-
-            <div id="footer" class="fixed-bottom"><strong>MellitusBLE &copy;  MellitusHealth Inc 2018</strong></div>
-
-        </div>
+        <p style="padding: 5px">To learn more about DevExtreme, check out the <a href="http://go.devexpress.com/DevExtreme_LearningCenter.aspx" target="_blank">Learning Center</a>.</p>
+        <p style="padding: 5px">Note: To disable the simulator debugging environment, set the project's 'Run in Simulator' property to false.</p>
     </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
 </div>
